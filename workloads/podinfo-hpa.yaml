@@ -2,7 +2,7 @@ apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler
 metadata:
   name: podinfo
-  namespace: demo3
+  namespace: contoso-security-policy-ns
 spec:
   scaleTargetRef:
     apiVersion: apps/v1

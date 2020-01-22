@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: podinfo
-  namespace: contoso-security-policy-ns
+  namespace: contoso-ns
   labels:
     app: podinfo
 spec:

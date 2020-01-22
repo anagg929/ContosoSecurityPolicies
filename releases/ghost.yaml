@@ -3,7 +3,7 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: ghost33
-  namespace: contoso-security-policy-ns
+  namespace: contoso-ns
   annotations:
     flux.weave.works/automated: "false"
     flux.weave.works/tag.chart-image: glob:1.21.*

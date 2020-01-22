@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: podinfo
-  namespace: contoso-security-policy-ns
+  namespace: contoso-ns
   labels:
     app: podinfo
   annotations:

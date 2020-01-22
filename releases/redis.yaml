@@ -3,7 +3,7 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: redis3
-  namespace: contoso-security-policy-ns
+  namespace: contoso-ns
   annotations:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.chart-image: semver:~4.0
